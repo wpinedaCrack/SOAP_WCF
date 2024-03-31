@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pacagroup.Comercial.Creditos.Dominio", "Pacagroup.Comercial.Creditos.Dominio\Pacagroup.Comercial.Creditos.Dominio.csproj", "{0F8247F7-1F64-4FD2-B74B-645D5E6B9C22}"
 EndProject
@@ -42,6 +42,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pacagroup.Comercial.Credito
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pacagroup.Comercial.Creditos.WebConsumer", "Pacagroup.Comercial.Creditos.WebConsumer\Pacagroup.Comercial.Creditos.WebConsumer.csproj", "{2D1BF0BD-B8B1-4CAD-90F9-90B595799075}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{81233956-AE39-4940-8806-05BF1748CF6B}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.txt = Readme.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
