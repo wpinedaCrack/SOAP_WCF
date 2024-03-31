@@ -49,23 +49,6 @@ namespace Pacagroup.Comercial.Creditos.FormsConsumer
 
             if (proxyClient.State == CommunicationState.Opened)
                 proxyClient.Close();
-
-            //ProxyCredito.CreditoServiceClient proxy = new ProxyCredito.CreditoServiceClient();
-            //var colleccion = proxy.ListarCredito();
-
-            //if (colleccion != null)
-            //    foreach (var item in colleccion)
-            //    {
-            //        Console.WriteLine("IdCredito : " + item.IdCredito +
-            //                          " Fecha : " + item.Fecha +
-            //                          " Monto : " + item.Monto);
-            //    }
-
-            //if (proxy.State == CommunicationState.Opened)
-            //    proxy.Close();
-
-            //Console.ReadLine();
-
         }
     }
 }
