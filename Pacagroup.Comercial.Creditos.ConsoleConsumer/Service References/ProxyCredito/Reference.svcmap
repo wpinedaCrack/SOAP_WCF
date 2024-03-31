@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="47df1c9c-ed47-45d6-963f-d930b77c379b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://192.168.0.38/WCFSoap2/CreditoService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CreditoService.xsd" MetadataType="Schema" ID="a46daf52-92e0-4bd4-b88f-0f147c5d1202" SourceId="1" SourceUrl="http://192.168.0.38/WCFSoap2/CreditoService.svc?xsd=xsd2" />
+    <MetadataFile FileName="CreditoService.disco" MetadataType="Disco" ID="d73f4713-32a2-4cbd-a0fa-69509a62b4e4" SourceId="1" SourceUrl="http://192.168.0.38/WCFSoap2/CreditoService.svc?disco" />
+    <MetadataFile FileName="CreditoService1.xsd" MetadataType="Schema" ID="e6981849-4e00-4ad2-bc73-8f8b6b6e76db" SourceId="1" SourceUrl="http://192.168.0.38/WCFSoap2/CreditoService.svc?xsd=xsd0" />
+    <MetadataFile FileName="CreditoService.wsdl" MetadataType="Wsdl" ID="b4bfc8b3-e15d-439c-96f7-9917fdffc6df" SourceId="1" SourceUrl="http://192.168.0.38/WCFSoap2/CreditoService.svc?wsdl" />
+    <MetadataFile FileName="CreditoService2.xsd" MetadataType="Schema" ID="766d081c-f516-49f6-bcaa-de1813696ab6" SourceId="1" SourceUrl="http://192.168.0.38/WCFSoap2/CreditoService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
